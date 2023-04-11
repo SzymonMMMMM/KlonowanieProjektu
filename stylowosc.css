@@ -1,0 +1,232 @@
+
+		body {
+			background:#e9e3dc;
+		
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+		}
+		.title {
+            margin-top: 2vh;
+            margin-bottom: 3vh;
+            border-radius: 25px;
+			width: 94%;
+			padding: 4vh 0;
+			background: #919191;
+			
+		}
+		.title h1{
+			
+			font-size: 6em;
+			letter-spacing: 0.17em;
+			font-weight: 800;
+			color: #fff;
+			font-family: 'Comforter', cursive;
+			text-align: center;
+			
+		}
+		
+		.sheet {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 1em;
+            margin-bottom: 1em;
+			background: #acc9fc;
+			width: 30%;
+			padding-bottom: 0.5em;
+		}
+		.sheet a {  
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+			border-radius: 10px;
+			text-align: center;
+			background: hsl(204, 15%, 94%);
+			padding:0.55em ;
+			margin: 0.15em 0.1em;
+		}
+		.sheet form p {
+			border-radius: 9px;
+			text-align: center;
+			font-size: 2em;
+			text-decoration: none;
+			color: #fff;
+			background: #555555;
+			padding:0.75em 0;
+			width: 18vw;
+			margin: 0.75em 0;
+		}
+		.menu {
+			text-decoration: none;
+			display: flex;
+			flex-direction: column;
+			padding: 1.75em 2vw;
+			align-items: center;
+			background: #c9c9c9;
+			width:unset;
+			
+		}
+		.menu a {
+			text-decoration:none;
+			color:#fff;
+		}
+		.posty div {
+			border-bottom: 1px #9e9e9e solid;
+			padding-bottom: 1vh;
+			margin-bottom: 0.5vh;
+		}
+		.posty a:hover {
+			text-decoration: none;
+			color: #fff;
+			font-weight: 400;
+			width: 100%;
+			text-decoration:none;
+		}
+		.posty p {
+				color: #949494;
+				margin-top: -0.5vw;
+				font-size: 1.2em;
+				letter-spacing:0,005em;
+			border-radius: 20px;
+		}
+		.posty a, .posty .tresc {
+			text-decoration: none;
+			color: #c9cacc;
+			font-weight: 400;
+			font-size: 1.5em;
+			letter-spacing:0.01em;
+			width: 100%;
+			margin-top: 0;
+			text-decoration:none;
+		}
+		.posty h2 {
+			font-weight: 400;
+			letter-spacing: 0,14em;
+		}
+		
+		.content {
+			margin-top:8vh;
+			display: flex;
+			width: 94%;
+			justify-content: space-between;
+		
+		}
+		.witaj {
+			width: 65vw;
+		}
+		
+		.witaj h1{
+				font-size:3em;
+				font-weight: 500 !important;
+				letter-spacing:0.025em;
+			margin-bottom:1vh;
+		}
+		.witaj h5{
+				font-size:2.4em;
+				font-weight: 500 !important;
+				letter-spacing:0.025em;
+			margin-bottom:1vh;
+		}
+		.witaj h2 {
+			font-style:italic;
+				font-size: 1.5em;
+				font-weight: 300;
+			
+		}
+		.witaj h2 strong {
+			font-weight: 500;
+		}
+		.witaj h3 {
+				font-size: 1.5em;
+				font-weight: 400;
+				margin-top: 2vh;
+			
+		}
+		
+		ul li{
+			list-style-type:none;
+			width:15vw;
+			margin: 0.5vw 0;
+		}
+		ul li a {
+			display:block;
+			text-align: center;
+			font-size: 1.5em;
+			text-decoration: none;
+			color: #fff;
+			width:15vw;
+			border: 1.5px #fff solid;
+			background: #769AFC;
+			padding:0.5vw 0;
+			text-decoration: none;
+			transition: 0.1s all linear;
+		}
+		ul li a:hover {
+			cursor: pointer;
+			background: #FEC7AA;
+			border: 2px #FEC7AA solid;
+			color: #fff;
+		}
+		.hidden {
+			display: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+		.dom {
+			font-weight:200;
+			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		}
+		.gryf {
+			color: #E83E0C;
+		}
+		.huff {
+			color: #FFE330;
+		}
+		.rav {
+			color: #465BE8;
+		}
+		.sly {
+			color: #20BA4B;
+		}
+		.witaj form {
+			margin-top: 4vh;
+			width: 100%;
+		}
+		.witaj form > input {
+			width: 100%;
+			margin-bottom: 4vh;
+			padding: 0.75vh 1vw;
+			font-size: 1.5em;
+			letter-spacing:0.01em;
+
+		}
+		.duzyprzycisk {
+			padding: 0.75vh 1vw;
+			border: #fff 2px solid;
+			transition: all 0.1s linear;
+			background: #FEC7AA;
+			color: #fff;
+			font-size: 1.5em;
+            margin-top: 0.9em;
+			letter-spacing:0.01em;  display: block;
+            margin-left: auto;
+            margin-right: auto;
+		}
+		.witaj form button:hover {
+			background: #555555;
+			cursor:pointer;
+			border: #555555 2px solid;
+			color: #555555;
+		}
+		.witaj form fieldset {
+			border: 0;
+			margin-bottom: 2vh;
+		}
+		.witaj form p {
+			font-size: 1.5em;
+			margin-bottom: 2vh;
+		}
